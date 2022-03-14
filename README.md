@@ -1,2 +1,2 @@
 # HA.LightingService
-Home Automation service for lighting.
+Home Automation service for lighting
