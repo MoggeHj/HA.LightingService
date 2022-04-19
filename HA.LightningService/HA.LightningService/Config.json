@@ -1,0 +1,9 @@
+{
+  "ConBeeII": {
+    "Url": "http://192.168.137.1:8080",
+    "ApiKey": "5A19EAFD21",
+    "Source": "File", //Source to get ApiKey from: File or RestApi
+    "Username": "",
+    "Password": "" 
+  }
+}
