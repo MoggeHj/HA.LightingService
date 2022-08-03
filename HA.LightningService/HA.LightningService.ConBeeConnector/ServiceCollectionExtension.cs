@@ -1,5 +1,4 @@
 ﻿using HA.LightningService.ConBeeConnector.Interfaces;
-using HA.LightningService.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

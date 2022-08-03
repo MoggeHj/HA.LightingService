@@ -27,5 +27,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HA.LightningService.ConBeeConnector\HA.LightningService.ConBeeConnector.csproj" />
+    <ProjectReference Include="..\HA.LightningService.RabbitMq\HA.LightningService.RabbitMq.csproj" />
   </ItemGroup>
 </Project>

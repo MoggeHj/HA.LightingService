@@ -1,6 +1,3 @@
-using System.Text;
-using HA.LightningService.Interfaces;
-
 namespace HA.LightningService
 {
     public class Worker : BackgroundService

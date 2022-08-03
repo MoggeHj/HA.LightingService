@@ -1,6 +1,6 @@
 ﻿namespace HA.LightningService.ConBeeConnector.Interfaces;
 
-public interface IAccessToken
+public interface IMessageHandler
 {
-    Task<string> GetAccessToken();
+    void Subscribe();
 }

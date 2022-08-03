@@ -1,11 +1,7 @@
-﻿using HA.LightningService.Interfaces;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using HA.LightningService.ConBeeConnector.Interfaces;
+using HA.LightningService.ConBeeConnector.Models;
 
 namespace HA.LightningService.ConBeeConnector;
 
@@ -21,7 +17,24 @@ public class ConBeeClient : IDataProvider
         _logger=logger;
     }
 
-        
 
-        
+    public Light GetLight(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Light> GetLights()
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool SetState(Light light)
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool SetName(Light light)
+    {
+        throw new NotImplementedException();
+    }
 }
